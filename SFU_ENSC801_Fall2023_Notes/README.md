@@ -14,3 +14,19 @@ estimate of minimum - location of lowest value
 
 
 convex function - one and only one global minimum 
+
+WHat is the
+
+$\bigtriangledown f$ = total rate of change of f
+
+$\bigtriangledown f$(x) = gradient of f at a location x points in direction of greatest increase
+
+What is rate of change of f along vector v along the unit direction  \hat{v} = \frac{v}{||v||}
+
+$\bigtriangledown f^t \cdot v = [] [] $
+1 xn n x 1 = 1 x 1
+
+= $v^t \nabla f$
+
+### Taylor Series (18:39)
+
