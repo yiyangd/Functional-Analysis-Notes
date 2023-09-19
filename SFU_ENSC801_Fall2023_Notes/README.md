@@ -26,7 +26,15 @@ What is rate of change of f along vector v along the unit direction  \hat{v} = \
 $\bigtriangledown f^t \cdot v = [] [] $
 1 xn n x 1 = 1 x 1
 
-= $v^t \nabla f$
+= $v^t \cdot \nabla f$
 
 ### Taylor Series (18:39)
+$$f(x+h) = f(x) + f'(x) + f''(x)$$
 
+#### 2D function $f(x_1, x_2)$
+
+$$f(x_1+h_1, x_2, h_2) = f (x_1,x_2) + f'(x_1, x_2)$$
+
+
+#### Newton Law's 
+$$s = ut + 1/2 at^2 taylar series$$
