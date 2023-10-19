@@ -34,8 +34,17 @@ The main purpose of this section is to illustrate the variety of problems that c
 Although the formal definition of a vector space is not given until Chapter 2, we point out, in the examples that follow, how each problem can be regarded as formulated in some appropriate vector space. However, the details of the formulation must, in many cases, be deferred until later chapters.   
 尽管向量空间的正式定义直到第二章才给出，但在接下来的示例中，我们指出每个问题如何可以被视为在某个适当的向量空间中构建。然而，在许多情况下，构建的详细内容必须推迟到后面的章节。
 ### 1.2.1. Allocation
-In allocation problems there is typically a collection of resources to be distributed in some optimal fashion. Almost any optimization problem can be placed in this broad category, but usually the term is reserved for problems in which the resources are distributed over space or among various activities. 
+In allocation problems there is typically a collection of resources to be distributed in some optimal fashion. Almost any optimization problem can be placed in this broad category, but usually the term is reserved for problems in which the resources are distributed over space or among various activities.   
+在分配问题中，通常有一系列资源需要以某种最优方式进行分配。几乎任何优化问题都可以归入这一广泛的类别，但通常这个术语仅用于资源在空间中或在各种活动中分配的问题。
 
+In an idealized version of the problem, we assume that the production and profit model is linear. Assume that the selling price per unit of product j is $p_j, j = 1, 2, \cdots , n$ . If $x_j$ denotes the amount of product j that is to be produced, $b_i$ the amount of raw material i on hand, and $a_{ij}$ the amount of material i in one unit of product j, the manufacturer seeks to maximize his profit 
+
+在问题的理想化版本中，我们假设生产和利润模型是线性的。假设产品j的每单位售价为$p_j$，其中j = 1, 2, \cdots , n$。如果$x_j$表示要生产的产品j的数量，$b_i$表示手头上的原材料i的数量，$a_{ij}$表示产品j的一个单位中的材料i的数量，那么制造商寻求最大化其利润。
+
+$$p_1x_1+p_2x_2+\cdots+p_nx_n$$
+
+subject to the production constraints on the amount of raw materials  
+受限于原材料数量的生产约束。
 
 ### 1.2.2. Planning
 ### 1.2.3. Control (or Guidance)
