@@ -1,10 +1,10 @@
 # Chapter 1 - Introduction
 
 ## 1.1. Motivation
-During the past twenty years mathematics and engineering have been increasingly directed towards problems of decision making in physical or organizational systems. This trend has been inspired primarily by the significant economic benefits which often result from a proper decision concerning the distribution of expensive resources, and by the repeated demonstration that such problems can be realistically formulated and mathematically aMlyzed to obtain good decisions.  
-在过去的二十年中，数学和工程学越来越多地研究物理或组织系统中的决策问题。这一趋势主要是受到以下因素的启发：有关昂贵资源分配的正确决策往往会带来巨大的经济效益，而且反复证明，这类问题可以现实地提出，并通过数学计算获得良好的决策。
+During the past twenty years mathematics and engineering have been increasingly directed towards problems of decision making in physical or organizational systems. This trend has been inspired primarily by the significant economic benefits which often result from a proper decision concerning **the distribution of expensive resources**, and by the repeated demonstration that such problems can be realistically formulated and mathematically aMlyzed to obtain good decisions.  
+在过去的二十年中，数学和工程学越来越多地研究物理或组织系统中的决策问题。这一趋势主要是受到以下因素的启发：有关**昂贵资源分配**的正确决策往往会带来巨大的经济效益，而且反复证明，这类问题可以现实地提出，并通过数学计算获得良好的决策。
 
-The arrival of high-speed digital computers has also played a major  role in the development of the science of decision making. Computers have inspired the development of larger systems and the coupling of previously separate systems, thereby resulting in decision and control problems of correspondingly increased complexity. At the same time, however, computers have revolutionized applied mathematics and solved many of the complex problems they generated.   
+The arrival of high-speed digital computers has also played a major role in the development of the science of decision making. Computers have inspired the development of larger systems and the coupling of previously separate systems, thereby resulting in decision and control problems of correspondingly increased complexity. At the same time, however, computers have revolutionized applied mathematics and solved many of the complex problems they generated.   
 高速数字计算机的出现对决策科学的发展也起到了重要作用。计算机激发了更大系统的发展，并将以前独立的系统耦合在一起，从而导致决策和控制问题的复杂性相应增加。然而，与此同时，计算机也彻底改变了应用数学，并解决了许多由它们产生的复杂问题。
 
 It is perhaps natural that the concept of best or optimal decisions should emerge as the fundamental approach for formulating decision problems. In this approach Ii single real quantity, summarizing the performance or value of a decision, is isolated and optimized (i.e., either maximized or minimized depending on the situation) by proper selection among available alternatives. The resulting optimal decision is taken as the solution to the decision problem. This approach to decision problems has the virtues of simplicity, precisell1ess, elegance, and, in many cases, mathematical tractability. It also has obvious limitations due to the necessity of selecting a single objective by which to measure results. But optimization has proved its utility as a mode of analysis and is firmly entrenched in the field of decision making. 
@@ -19,7 +19,7 @@ Much of the classical theory of optimization, motivated primarily by problems of
 The study of optimization as an independent topic must, of course, be regarded as a branch of applied mathematics. As such it must look to various areas of pure mathematics for its unification, clarification, and general foundation. One such area of particular relevance is functional analysis.   
 当然，作为一个独立的课题，优化研究必须被视为应用数学的一个分支。因此，它必须从纯数学的各个领域中寻求统一、澄清和一般基础。其中一个特别相关的领域就是泛函分析。
 
-Functional analysis is the study of vector spaces resulting from a merging of geometry, linear algebra, and analysis. It serves as a basis for aspects of several important branches of applied mathematics including Fourier series, integral and differential equations, numerical analysis, and any field where linearity plays a key role. Its appeal as a unifying discipline stems primarily from its geometric character. Most"Of the principal results in functional analysis are expressed as abstractions of intuitive geometric properties of ordinary three-dimensional space.   
+Functional analysis is the study of vector spaces resulting from a merging of geometry, linear algebra, and analysis. It serves as a basis for aspects of several important branches of applied mathematics including Fourier series, integral and differential equations, numerical analysis, and any field where linearity plays a key role. Its appeal as a unifying discipline stems primarily from its geometric character. Most Of the principal results in functional analysis are expressed as abstractions of intuitive geometric properties of ordinary three-dimensional space.   
 泛函分析是研究向量空间的学科，它融合了几何学、线性代数和分析学。它为应用数学的几个重要分支的某些方面提供了基础，包括傅里叶级数、积分和微分方程、数值分析以及任何线性起关键作用的领域。其作为一个统一学科的吸引力主要源于其几何性质。泛函分析中的大多数主要结果都被表述为普通三维空间的直观几何属性的抽象。
 
 Some readers may look with great expectation toward functional analysis, hoping to discover new powerful techniques that will enable them to solve important problems beyond the reach of simpler mathematical analysis. Such hopes are rarely realized in practice. The primary utility of functional analysis for the purposes of this book is its role as a unifying discipline, gathering a number of apparently diverse, specialized mathematical tricks into one or a few general geometric principles.    
@@ -52,10 +52,34 @@ subject to the production constraints on the amount of raw materials
 ### 1.2.5. Estimation
 
 ## 1.3. The Main Principles
+将段落删除换行后：
 
+The theory of optimization presented in this book is derived from a few simple, intuitive, geometric relations. The extension of these relations to infinite-dimensional spaces is the motivation for the mathematics of functional analysis which, in a sense, often enables us to extend our three-dimensional geometric insights to complex infinite-dimensional problems. This is the conceptual utility of functional analysis. On the other hand, these simple geometric relations have great practical utility as well because a vast assortment of problems can be analyzed from this point of view.  
+本书中呈现的优化理论源于一些简单、直观的几何关系。这些关系到无限维空间的扩展是泛函分析数学的动机，这在某种意义上常常使我们能够将三维几何洞察扩展到复杂的无限维问题。这是泛函分析的概念效用。另一方面，这些简单的几何关系也具有很大的实用价值，因为大量的问题可以从这个角度进行分析。
 ### 1.3.1. The Projection Theorem
+In ordinary *three-dimensional Euclidean space*, the **Projection Theorem** states that *the shortest line from a point to a plane* is furnished by the **perpendicular** from the point to the plane.  
+在普通的*三维欧几里得空间*中，**投影定理**表明*从一个点到一个平面的最短线*是由该点到平面的**垂线**给出的。
+- This simple result **has direct extensions in spaces of higher dimension and in infinite-dimensional Hilbert space**.   
+这一简单的结果可以**直接扩展到更高维度的空间和无限维的希尔伯特空间**。
+- In the generalized form, this **optimization principle** forms *the basis of all least-squares approximation, control, and estimation procedures*.  
+在其广义形式中，这一**优化原则**构成了所有*最小二乘法近似、控制和估计过程的基础*。
 ### 1.3.2. The Hahn-Banach Theorem
-### 1.3.3. Duality
-### 1.3.4. Differentials
+Of the many results and concepts in functional analysis, the one theorem dominating the theme of this book and embodying the essence of the simple geometric ideas upon which the theory is built is the Hahn-Banach theorem. The theorem takes several forms. One version extends the projection theorem to problems having nonquadratic objectives. In this manner the simple geometric interpretation is preserved for these more complex problems.  
+在泛函分析中的许多结果和概念中，主导这本书主题并体现了建立该理论的简单几何思想的本质的一个定理是Hahn-Banach定理。该定理有几种形式。一个版本将投影定理扩展到具有非二次目标的问题。通过这种方式，为这些更复杂的问题保留了简单的几何解释。
 
+Another version of the Hahn-Banach theorem states (in simplest form) that given a sphere and a point not in the sphere there is a hyperplane separating the point and the sphere. This version of the theorem, together with the associated notions of hyperplanes, is the basis for most of the theory beyond Chapter 5.  
+Hahn-Banach定理的另一个版本（以最简单的形式）表明，给定一个球和球外的一个点，存在一个超平面将该点和球分开。这个定理的这个版本，连同超平面的相关概念，是第5章之后的大部分理论的基础。
+
+### 1.3.3. Duality
+There are several **duality principles in optimization theory** that relate *a problem expressed in terms of vectors in a space* to *a problem expressed in terms of hyperplanes in the space*，and are *based on the geometric relation* below:  
+**优化理论中有几个对偶性原理**，它们将*空间中以向量表示的问题*与*空间中以超平面表示的问题*联系起来，并*基于以下几何关系*：
+- The **shortest distance from a point to a convex set** is equal to **the maximum of the distances from the point to a hyperplane separating the point from the convex set**  
+从**一个点到凸集的最短距离**等于**从该点到将该点与凸集分开的超平面的距离的最大值**
+### 1.3.4. Differentials
+Perhaps the most familiar optimization technique is the method of differential calculus—setting the derivative of the objective function equal to zero. The technique is discussed for a single or, perhaps, finite number of variables in the most elementary courses on differential calculus. Its extension to infinite-dimensional spaces is straightforward and, in that form, it can be applied to a variety of interesting optimization problems. Much of the classical theory of the calculus of variations can be viewed as a consequence of this principle.
+人们最熟悉的优化技术或许是微分法--将目标函数的导数设为零。在微分学的最初级课程中，讨论的是单变量或有限变量的技术。它可以直接扩展到无限维空间，并以这种形式应用于各种有趣的优化问题。变分微积分的许多经典理论都可以看作是这一原理的结果。
+
+The geometric interpretation of the method of differential calculus for one-dimensional problems is obvious. At a maximum or minimum the tangent to the graph of a function is horizontal. In higher dimensions the geometric interpretation is similar: at a maximum or minimum the tangent hyperplane to the graph is horizontal. Thus, again we are led to observe the fundamental role of hyperplanes in optimization.
+
+对于一维问题的几何解释是显而易见的。在最大值或最小值处，函数图的切线是水平的。在更高的维度中，几何解释是相似的：在最大值或最小值处，图的切超平面是水平的。因此，我们再次被引导去观察优化中超平面的基本作用。
 ## 1.4. Organization of the Book
