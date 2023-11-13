@@ -30,3 +30,23 @@ A **vector space X** is **a set of elements called vectors, together with two op
   6. *$(\alpha \beta)x = \alpha(\beta x)$* (associative law)
   7. *$0x=\theta$*, *$1x = x$*
   8. *$x + (-x) =1x + (-1)x=(1-1)x = 0x = \theta$*
+#### 2.2.2. Some Properties 
+There are several elementary but **important properties of vector spaces that follow directly from the axioms listed in the definition**. For example, the following properties are easily deduced. The details are left to the reader.
+
+向量空间有一些基本但重要的性质，**这些性质直接来源于定义中列出的公理**。例如，以下性质可以很容易地推导出来。具体细节留给读者。
+
+#### 2.2.3. Examples
+Perhaps the **simplest example of a vector space** is **the set of real numbers**.   
+可能**最简单的向量空间**示例是**实数集**。
+- It is a **real vector space with addition defined in the usual way and multiplication by (real) scalars defined as ordinary multiplication**. The **null vector** is the **real number zero**.   
+它是一个**实向量空间，加法按通常方式定义，而乘以（实数）标量则定义为普通乘法**。**零向量**是**实数零**。
+- The properties of *ordinary addition and multiplication of real numbers satisfy the axioms* in the definition of a vector space.   
+实数的*普通加法和乘法*的性质*满足*向量空间定义中的*公理*。
+- This vector space is called the **one-dimensional real coordinate space** or simply the **real line**. It is denoted by $R^1$ or simply R.  
+这个向量空间被称为**一维实坐标空间**或简称为**实数线**。它表示为 $R^1$ 或简称 R。
+##### n-dimensional real coordinate space
+An **extension of 1-dimensional real line** is to **n-dimensional real coordinate space**. Vectors in the space *consist of sequences (n-tuples) of n real numbers* so that a typical vector has the form *$x = (x_1, x_2, \ldots, x_n)$*. The *null
+vector* is defined as *$\theta = (0, 0, \ldots ,0)$*.
+
+**1维实数线的一个扩展**是到**n维实坐标空间**。这个空间中的向量由*n个实数的序列（n元组）组成*，因此一个典型的向量具有形式 *$x = (x_1, x_2, \ldots, x_n)$*。 *零向量*被定义为*$\theta = (0, 0, \ldots ,0)$*
+
