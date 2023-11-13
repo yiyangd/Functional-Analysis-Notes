@@ -36,6 +36,7 @@ There are several elementary but **important properties of vector spaces that fo
 向量空间有一些基本但重要的性质，**这些性质直接来源于定义中列出的公理**。例如，以下性质可以很容易地推导出来。具体细节留给读者。
 
 #### 2.2.3. Examples
+##### one-dimensional real line
 Perhaps the **simplest example of a vector space** is **the set of real numbers**.   
 可能**最简单的向量空间**示例是**实数集**。
 - It is a **real vector space with addition defined in the usual way and multiplication by (real) scalars defined as ordinary multiplication**. The **null vector** is the **real number zero**.   
@@ -50,3 +51,10 @@ vector* is defined as *$\theta = (0, 0, \ldots ,0)$*.
 
 **1维实数线的一个扩展**是到**n维实坐标空间**。这个空间中的向量由*n个实数的序列（n元组）组成*，因此一个典型的向量具有形式 *$x = (x_1, x_2, \ldots, x_n)$*。 *零向量*被定义为*$\theta = (0, 0, \ldots ,0)$*
 
+- If $x = (x_1, x_2, \ldots, x_n)$ and $y = (y_1, y_2, \ldots, y_n)$, the vector $x + y$ is defined as the n-tuple whose k-th component is $x_k + y_k$. The vector $\alpha x$, where $\alpha$ is a (real) scalar, is the n-tuple whose k-th component is $\alpha x_k$. The axioms in the definition are verified by checking for equality among components.
+
+如果 $x = (x_1, x_2, \ldots, x_n)$ 且 $y = (y_1, y_2, \ldots, y_n)$，则向量 $x + y $ 定义为第 k 个分量是 $x_k + y_k$ 的 n 元组。其中 $\alpha$ 是一个（实数）标量的向量 $\alpha x$，是第 k 个分量是 $\alpha x_k$ 的 n 元组。通过检查分量之间的相等性来验证定义中的公理。
+
+This space, n-dimensional real coordinate space, is denoted by \( \mathbb{R}^n \). The corresponding complex space consisting of n-tuples of complex numbers is denoted by \( \mathbb{C}^n \).
+
+这个空间，即 n 维实坐标空间，表示为 \( \mathbb{R}^n \)。相应的由 n 元复数组成的复空间表示为 \( \mathbb{C}^n \)。
