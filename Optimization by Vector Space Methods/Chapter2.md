@@ -36,7 +36,7 @@ There are several elementary but **important properties of vector spaces that fo
 向量空间有一些基本但重要的性质，**这些性质直接来源于定义中列出的公理**。例如，以下性质可以很容易地推导出来。具体细节留给读者。
 
 #### 2.2.3. Examples
-##### one-dimensional real line
+##### Example 1. one-dimensional real line
 Perhaps the **simplest example of a vector space** is **the set of real numbers**.   
 可能**最简单的向量空间**示例是**实数集**。
 - It is a **real vector space with addition defined in the usual way and multiplication by (real) scalars defined as ordinary multiplication**. The **null vector** is the **real number zero**.   
@@ -45,7 +45,7 @@ Perhaps the **simplest example of a vector space** is **the set of real numbers*
 实数的*普通加法和乘法*的性质*满足*向量空间定义中的*公理*。
 - This vector space is called the **one-dimensional real coordinate space** or simply the **real line**. It is denoted by $R^1$ or simply R.  
 这个向量空间被称为**一维实坐标空间**或简称为**实数线**。它表示为 $R^1$ 或简称 R。
-##### n-dimensional real coordinate space $R^n$
+##### Example 2. n-dimensional real coordinate space $R^n$
 An **extension of 1-dimensional real line** is to **n-dimensional real coordinate space**. Vectors in the space *consist of sequences (n-tuples) of n real numbers* so that a typical vector has the form *$x = (x_1, x_2, \ldots, x_n)$*. The *null
 vector* is defined as *$\theta = (0, 0, \ldots ,0)$*.
 
@@ -62,6 +62,23 @@ This space, n-dimensional real coordinate space, is denoted by $\mathbb{R}^n$. T
 At this point, we are, strictly speaking, somewhat prematurely introducing the term dimensionality. Later in this chapter, the notion of dimension is defined, and it is proved that these spaces are in fact n-dimensional.
 
 在这一点上，严格来说，我们有些过早地引入了维度这个术语。在本章后面，将会定义维度的概念，并且将证明这些空间实际上是 n 维的。
-##### Space of Bounded Real Sequences
+##### Example 3. Space of  Real Sequences
+Several Vector Spaces can be **constructed with vectors consisting of infinite sequences of real numbers**, so that a typical vector has the form:  
+一些向量空间可以**由无限实数序列组成的向量构造**，因此一个典型的向量具有形式:
+$$x=(x_1, x_2, \ldots, x_k, \ldots) = \{x_k\}_{k=1}^{\infty}$$
+- The **collection of all infinite sequences of real numbers** forms a *vector space*,  addition and multiplication are defined componentwise as in $\mathbb{R}^n$.  
+**所有无限实数序列的集合**构成了一个*向量空间*，加法和乘法和在 $\mathbb{R}^n$ 一样按分量被定义的。
+
+**A sequence $\{x_k\}$ is said to be bounded** if there is a constant $M$ such that *$|x_k| < M$ for all $k$*.   
+如果*存在一个常数 $M$ 使得对于所有的 $k$ 都有 $|x_k| < M$* ，则**序列 $\{x_k\}$ 被称为有界的**。
+- The **collection of all bounded infinite sequences** forms a *vector space*    
+**所有有界无限序列的集合**构成了一个*向量空间*，
+  - since the sum of two bounded sequences or the scalar multiple of a bounded sequence is again bounded.   
+因为两个有界序列的和或一个有界序列的标量倍数仍然是有界的。
+
+The **collection of infinite sequences of real numbers which converge to zero** is a *vector space*,  
+**收敛于零的实数无限序列的集合**是一个*向量空间*，
+- since the *sum of two sequences converging to zero* or the *scalar multiple of a sequence converging to zero* also *converges to zero*.  
+因为*两个收敛于零的序列之和*或*一个收敛于零的序列的标量倍数*也*收敛于零*。
 
 #####
