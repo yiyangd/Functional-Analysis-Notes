@@ -45,7 +45,7 @@ Perhaps the **simplest example of a vector space** is **the set of real numbers*
 实数的*普通加法和乘法*的性质*满足*向量空间定义中的*公理*。
 - This vector space is called the **one-dimensional real coordinate space** or simply the **real line**. It is denoted by $R^1$ or simply R.  
 这个向量空间被称为**一维实坐标空间**或简称为**实数线**。它表示为 $R^1$ 或简称 R。
-##### n-dimensional real coordinate space
+##### n-dimensional real coordinate space $R^n$
 An **extension of 1-dimensional real line** is to **n-dimensional real coordinate space**. Vectors in the space *consist of sequences (n-tuples) of n real numbers* so that a typical vector has the form *$x = (x_1, x_2, \ldots, x_n)$*. The *null
 vector* is defined as *$\theta = (0, 0, \ldots ,0)$*.
 
@@ -55,6 +55,6 @@ vector* is defined as *$\theta = (0, 0, \ldots ,0)$*.
 
 如果 $x = (x_1, x_2, \ldots, x_n)$ 且 $y = (y_1, y_2, \ldots, y_n)$，则向量 $x + y $ 定义为第 k 个分量是 $x_k + y_k$ 的 n 元组。其中 $\alpha$ 是一个（实数）标量的向量 $\alpha x$，是第 k 个分量是 $\alpha x_k$ 的 n 元组。通过检查分量之间的相等性来验证定义中的公理。
 
-This space, n-dimensional real coordinate space, is denoted by \( \mathbb{R}^n \). The corresponding complex space consisting of n-tuples of complex numbers is denoted by \( \mathbb{C}^n \).
+This space, n-dimensional real coordinate space, is denoted by $\mathbb{R}^n$. The corresponding complex space consisting of n-tuples of complex numbers is denoted by $\mathbb{C}^n$.
 
-这个空间，即 n 维实坐标空间，表示为 \( \mathbb{R}^n \)。相应的由 n 元复数组成的复空间表示为 \( \mathbb{C}^n \)。
+这个空间，即 n 维实坐标空间，表示为$\mathbb{R}^n$。相应的由 n 元复数组成的复空间表示为 $ \mathbb{C}^n$。
