@@ -57,4 +57,11 @@ vector* is defined as *$\theta = (0, 0, \ldots ,0)$*.
 
 This space, n-dimensional real coordinate space, is denoted by $\mathbb{R}^n$. The corresponding complex space consisting of n-tuples of complex numbers is denoted by $\mathbb{C}^n$.
 
-这个空间，即 n 维实坐标空间，表示为$\mathbb{R}^n$。相应的由 n 元复数组成的复空间表示为 $ \mathbb{C}^n$。
+这个空间，即 n 维实坐标空间，表示为 $\mathbb{R}^n$ 。相应的由 n 元复数组成的复空间表示为 $ \mathbb{C}^n$ 。
+
+At this point, we are, strictly speaking, somewhat prematurely introducing the term dimensionality. Later in this chapter, the notion of dimension is defined, and it is proved that these spaces are in fact n-dimensional.
+
+在这一点上，严格来说，我们有些过早地引入了维度这个术语。在本章后面，将会定义维度的概念，并且将证明这些空间实际上是 n 维的。
+##### Space of Bounded Real Sequences
+
+#####
