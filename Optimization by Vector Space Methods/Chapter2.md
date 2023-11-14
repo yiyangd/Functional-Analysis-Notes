@@ -202,3 +202,18 @@ A vector x  is said to be **linearly dependent** upon a set S of vectors *if x  
 Conversely, the vector x is said to be **linearly independent** of the set S if it is not **linearly dependent on S; a set of vectors is said to be a linearly independent set if each vector in the set is linearly independent of the remainder of the set.  
 相反，*如果 x 不依赖于 S*，则称向量 x  与 S **线性独立**；如果集合中的每个向量都与该集合的其余向量线性无关，则该向量集被称为线性独立集。
 #### 5.2. Examples
+
+Two vectors are linearly independent if they do not lie on a common line through the origin, and three vectors are linearly independent if they do not lie in a plane through the origin, and so on.   
+如果两个向量不在通过原点的同一条直线上，则它们是线性独立的；如果三个向量不在通过原点的同一平面上，则它们是线性独立的，依此类推。
+
+
+It follows from our definition that the vector $\theta$ is dependent on any given vector $x$ since $\theta = 0x$.   
+根据我们的定义，向量 $\theta$ 依赖于任何给定的向量 $ x $，因为 $ \theta = 0x$
+- the set consisting of $\theta$ alone is understood to be a dependent set.   
+仅包含 $\theta$ 的集合被理解为一个线性相关集
+- a set consisting of a single nonzero vector is an independent set.   
+由单个非零向量组成的集合是一个独立集。
+
+#### 5.3. A Theorem for linear independence
+
+
